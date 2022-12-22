@@ -28,35 +28,19 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="80.5"
-     inkscape:cy="84"
-     inkscape:window-width="1920"
-     inkscape:window-height="1011"
+     inkscape:zoom="2.4804688"
+     inkscape:cx="23.181102"
+     inkscape:cy="72.566929"
+     inkscape:window-width="1280"
+     inkscape:window-height="731"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
-  <g
-     id="g238"
-     transform="matrix(0.66666668,0,0,0.66666668,2.1808083e-5,-2.7833384e-5)">
-    <g
-       id="g1082"
-       transform="matrix(9.6165312,0,0,9.6165312,-18.2625,-4.212)"
-       style="fill:#212529;fill-opacity:1;stroke:none">
-      <rect
-         style="fill:#212529;fill-opacity:1;stroke:none;stroke-width:1.22809;stroke-linecap:round;stroke-linejoin:round"
-         id="rect371"
-         width="15.59814"
-         height="15.59814"
-         x="1.8990701"
-         y="0.43800011" />
-    </g>
-    <path
-       d="M 25,52.1916 H 44.0719 L 55.1774,80.6028 66.4273,52.1916 H 84.9948 L 57.0354,119.4507 H 38.3471 l 7.654,-17.8225 -21.0005,-49.4366 z m 81.6173,22.7015 H 85.8202 L 104.2788,30.5494 125,30.5503 Z M 91.268,79.1373 c 6.3812,0 11.5537,5.1728 11.5537,11.5528 0,6.3804 -5.1725,11.5532 -11.5537,11.5532 -6.3804,0 -11.552,-5.1728 -11.552,-11.5532 0,-6.38 5.1725,-11.5528 11.552,-11.5528 z"
-       fill="#5f01d1"
-       fill-rule="nonzero"
-       id="path2"
-       style="stroke-width:0.0295304" />
-  </g>
+  <path
+     d="m 16.666666,34.794366 h 12.7146 l 7.403667,18.9408 7.499933,-18.940799 H 56.6632 L 38.0236,79.633768 H 25.564733 L 30.667399,67.7521 16.667066,34.794366 Z M 71.0782,49.928699 H 57.213467 L 69.5192,20.366232 l 13.814134,6e-4 z m -10.232867,2.829467 c 4.254134,0 7.702467,3.448534 7.702467,7.701867 0,4.2536 -3.448333,7.702134 -7.702467,7.702134 -4.2536,0 -7.701333,-3.448534 -7.701333,-7.702134 0,-4.253333 3.448333,-7.701867 7.701333,-7.701867 z"
+     fill="#5f01d1"
+     fill-rule="nonzero"
+     id="path2"
+     style="stroke-width:0.0196869" />
 </svg>

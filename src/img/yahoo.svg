@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 150 150"
+   viewBox="0 0 100 100"
    shape-rendering="geometricPrecision"
    text-rendering="geometricPrecision"
    image-rendering="optimizeQuality"
@@ -9,8 +9,8 @@
    version="1.1"
    id="svg4"
    sodipodi:docname="yahoo.svg"
-   width="150"
-   height="150"
+   width="100"
+   height="100"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -29,7 +29,7 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="79.5"
+     inkscape:cx="80.5"
      inkscape:cy="84"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
@@ -38,21 +38,25 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
   <g
-     id="g1082"
-     transform="matrix(9.6165312,0,0,9.6165312,-18.2625,-4.212)"
-     style="fill:#212529;stroke:none;fill-opacity:1">
-    <rect
-       style="fill:#212529;fill-opacity:1;stroke:none;stroke-width:1.22809;stroke-linecap:round;stroke-linejoin:round"
-       id="rect371"
-       width="15.59814"
-       height="15.59814"
-       x="1.8990701"
-       y="0.43800011" />
+     id="g238"
+     transform="matrix(0.66666668,0,0,0.66666668,2.1808083e-5,-2.7833384e-5)">
+    <g
+       id="g1082"
+       transform="matrix(9.6165312,0,0,9.6165312,-18.2625,-4.212)"
+       style="fill:#212529;fill-opacity:1;stroke:none">
+      <rect
+         style="fill:#212529;fill-opacity:1;stroke:none;stroke-width:1.22809;stroke-linecap:round;stroke-linejoin:round"
+         id="rect371"
+         width="15.59814"
+         height="15.59814"
+         x="1.8990701"
+         y="0.43800011" />
+    </g>
+    <path
+       d="M 25,52.1916 H 44.0719 L 55.1774,80.6028 66.4273,52.1916 H 84.9948 L 57.0354,119.4507 H 38.3471 l 7.654,-17.8225 -21.0005,-49.4366 z m 81.6173,22.7015 H 85.8202 L 104.2788,30.5494 125,30.5503 Z M 91.268,79.1373 c 6.3812,0 11.5537,5.1728 11.5537,11.5528 0,6.3804 -5.1725,11.5532 -11.5537,11.5532 -6.3804,0 -11.552,-5.1728 -11.552,-11.5532 0,-6.38 5.1725,-11.5528 11.552,-11.5528 z"
+       fill="#5f01d1"
+       fill-rule="nonzero"
+       id="path2"
+       style="stroke-width:0.0295304" />
   </g>
-  <path
-     d="M 25,52.1916 H 44.0719 L 55.1774,80.6028 66.4273,52.1916 H 84.9948 L 57.0354,119.4507 H 38.3471 l 7.654,-17.8225 -21.0005,-49.4366 z m 81.6173,22.7015 H 85.8202 L 104.2788,30.5494 125,30.5503 Z M 91.268,79.1373 c 6.3812,0 11.5537,5.1728 11.5537,11.5528 0,6.3804 -5.1725,11.5532 -11.5537,11.5532 -6.3804,0 -11.552,-5.1728 -11.552,-11.5532 0,-6.38 5.1725,-11.5528 11.552,-11.5528 z"
-     fill="#5f01d1"
-     fill-rule="nonzero"
-     id="path2"
-     style="stroke-width:0.0295304" />
 </svg>

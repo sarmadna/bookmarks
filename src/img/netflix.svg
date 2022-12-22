@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Netflix_Symbol_RGB"
+   viewBox="0 0 150 150"
+   version="1.1"
+   width="150"
+   height="150"
+   sodipodi:docname="netflix.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1309"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="-53.5"
+     inkscape:cy="118"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Netflix_Symbol_RGB" />
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient35887">
+      <stop
+         style="stop-color:#b1060f;stop-opacity:1;"
+         offset="0"
+         id="stop35883" />
+      <stop
+         style="stop-color:#7b010c;stop-opacity:1"
+         offset="0.62500739"
+         id="stop36053" />
+      <stop
+         style="stop-color:#b1060f;stop-opacity:0;"
+         offset="1"
+         id="stop35885" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient19332">
+      <stop
+         style="stop-color:#b1060f;stop-opacity:1"
+         offset="0"
+         id="stop19328" />
+      <stop
+         style="stop-color:#7b010c;stop-opacity:1"
+         offset="0.54607224"
+         id="stop19560" />
+      <stop
+         style="stop-color:#e50914;stop-opacity:0;"
+         offset="1"
+         id="stop19330" />
+    </linearGradient>
+    <style
+       id="style2">.cls-1{fill:#e50914;}</style>
+    <linearGradient
+       xlink:href="#linearGradient19332"
+       id="linearGradient13368"
+       x1="78.23394"
+       y1="423.76712"
+       x2="221.66281"
+       y2="365.09167"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-692.26542,72.420476)" />
+    <linearGradient
+       xlink:href="#linearGradient35887"
+       id="linearGradient35889"
+       x1="456.36462"
+       y1="521.55957"
+       x2="309.67599"
+       y2="583.49475"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-692.26542,72.420476)" />
+  </defs>
+  <g
+     id="g1474"
+     transform="translate(-1024.7443,-589.96167)">
+    <rect
+       style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:11.81;stroke-linecap:round;stroke-linejoin:round"
+       id="rect371"
+       width="150"
+       height="150"
+       x="1024.7443"
+       y="589.96167" />
+    <g
+       id="g1467"
+       transform="matrix(0.09961916,0,0,0.09961916,1141.0952,607.86202)">
+      <path
+         style="fill:url(#linearGradient13368);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -693.41792,71.267982 3.45748,1003.822918 c 73.27274,-14.1114 130.89218,-12.5694 195.9241,-18.44 V 72.420476 Z"
+         id="path6055" />
+      <path
+         style="fill:url(#linearGradient35889);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -338.44956,72.420476 h 199.38158 l 2.30498,1000.365424 -202.83905,-33.4224 z"
+         id="path678" />
+      <path
+         style="fill:#e50914;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -691.11293,72.420476 c 4.60998,11.524946 345.74837,981.925424 345.74837,981.925424 56.0558,-0.4003 131.2191,8.7532 205.1441,17.2875 L -495.18886,72.420476 Z"
+         id="path362" />
+    </g>
+  </g>
+</svg>

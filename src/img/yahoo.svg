@@ -29,7 +29,7 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="78.5"
+     inkscape:cx="79.5"
      inkscape:cy="84"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
@@ -38,24 +38,21 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
   <g
-     id="g301"
-     transform="translate(2438.7429,-1449.4987)">
-    <g
-       id="g1082"
-       transform="matrix(9.6165312,0,0,9.6165312,-2457.0054,1445.2867)">
-      <rect
-         style="fill:#282828;fill-opacity:1;stroke:none;stroke-width:1.22809;stroke-linecap:round;stroke-linejoin:round"
-         id="rect371"
-         width="15.59814"
-         height="15.59814"
-         x="1.8990701"
-         y="0.43800011" />
-    </g>
-    <path
-       d="m -2413.7429,1501.6903 h 19.0719 l 11.1055,28.4112 11.2499,-28.4112 h 18.5675 l -27.9594,67.2591 h -18.6883 l 7.654,-17.8225 -21.0005,-49.4366 z m 81.6173,22.7015 h -20.7971 l 18.4586,-44.3437 20.7212,9e-4 z m -15.3493,4.2442 c 6.3812,0 11.5537,5.1728 11.5537,11.5528 0,6.3804 -5.1725,11.5532 -11.5537,11.5532 -6.3804,0 -11.552,-5.1728 -11.552,-11.5532 0,-6.38 5.1725,-11.5528 11.552,-11.5528 z"
-       fill="#5f01d1"
-       fill-rule="nonzero"
-       id="path2"
-       style="stroke-width:0.0295304" />
+     id="g1082"
+     transform="matrix(9.6165312,0,0,9.6165312,-18.2625,-4.212)"
+     style="fill:#212529;stroke:none;fill-opacity:1">
+    <rect
+       style="fill:#212529;fill-opacity:1;stroke:none;stroke-width:1.22809;stroke-linecap:round;stroke-linejoin:round"
+       id="rect371"
+       width="15.59814"
+       height="15.59814"
+       x="1.8990701"
+       y="0.43800011" />
   </g>
+  <path
+     d="M 25,52.1916 H 44.0719 L 55.1774,80.6028 66.4273,52.1916 H 84.9948 L 57.0354,119.4507 H 38.3471 l 7.654,-17.8225 -21.0005,-49.4366 z m 81.6173,22.7015 H 85.8202 L 104.2788,30.5494 125,30.5503 Z M 91.268,79.1373 c 6.3812,0 11.5537,5.1728 11.5537,11.5528 0,6.3804 -5.1725,11.5532 -11.5537,11.5532 -6.3804,0 -11.552,-5.1728 -11.552,-11.5532 0,-6.38 5.1725,-11.5528 11.552,-11.5528 z"
+     fill="#5f01d1"
+     fill-rule="nonzero"
+     id="path2"
+     style="stroke-width:0.0295304" />
 </svg>

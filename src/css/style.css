@@ -1,0 +1,7 @@
+:root {
+    --c1: #212529;
+}
+
+html {
+    background-color: var(--c1);
+}

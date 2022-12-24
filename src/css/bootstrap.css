@@ -44,9 +44,11 @@
   }
 }
 
+/* My customizations - start */
 html {
   background-color: var(--bs-dark);
 }
+/* My customizations - end */
 
 body {
   margin: 0;

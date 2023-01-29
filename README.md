@@ -1,2 +1,2 @@
-# mystart
-A start page for firefox
+# Firefox Start Page
+A custom start page for firefox.

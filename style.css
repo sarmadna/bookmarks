@@ -1,0 +1,12 @@
+.bg-custom {
+    background-color: #03506f;
+}
+
+.w-logo {
+    width: 75px;
+    height: 75px;
+}
+
+.font-ubuntu {
+    font-family: 'Ubuntu Mono', monospace;
+}

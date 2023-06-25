@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
-   sodipodi:docname="globe-light.svg"
+   sodipodi:docname="globe.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="0.9911673"
-     inkscape:cx="197.24218"
+     inkscape:cx="198.25109"
      inkscape:cy="83.739647"
      inkscape:window-width="1440"
      inkscape:window-height="872"
@@ -49,7 +49,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#03506f;fill-opacity:1;stroke:none;stroke-width:1.323"
+       style="fill:#1a659e;fill-opacity:1;stroke:none;stroke-width:1.323"
        id="rect4708"
        width="66.145836"
        height="66.145836"

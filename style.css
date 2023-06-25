@@ -1,11 +1,13 @@
 .bg-custom {
-    background-color: #03506f !important;
+    /*background-color: #03506f !important;*/
+    background-color: #1a659e !important;
 }
 
 .border-custom {
     border-style: solid;
     border-width: 2px;
-    border-color: #03506f;
+    /*border-color: #03506f;*/
+    border-color: #1a659e;
 }
 
 .size-50 {

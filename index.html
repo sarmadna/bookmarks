@@ -13,12 +13,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <title>Bookmarks</title>
 </head>
-<body>
-    <div class="d-flex flex-column w-100 min-vh-100 justify-content-center align-items-center bg-light font-ubuntu">
+<body class="bg-light">
+    <div class="d-flex flex-column w-100 min-vh-100 justify-content-center align-items-center font-ubuntu">
         <div class="d-flex flex-column w-50 justify-content-center align-items-center border-custom">
             <div class="d-flex flex-column flex-lg-row w-100 px-3 py-2 justify-content-between align-items-center bg-custom text-light">
                 <div class="fs-4">Bookmarks</div>
-                <img src="globe.svg" alt="Globe icon" class="size-50">
+                <a onclick="darkMode()"><img src="globe.svg" alt="Globe icon" class="size-50"></a><script src="dark-mode.js"></script>
                 <div class="fs-4" id="date" onload="currentDate()"><script src="date.js"></script></div>
             </div>
             <div class="d-flex flex-column w-100 p-2 justify-content-center align-items-center bg-light">

@@ -1,20 +1,44 @@
-.bg-custom {
-    /*background-color: #03506f !important;*/
-    background-color: #1a659e !important;
-}
+.bg-sol-dark {background-color: #073642;}
+.bg-sol-light {background-color: #fdf6e3;}
 
-.border-custom {
-    border-style: solid;
+.text-solarized {color: #93a1a1;}
+.text-sol-blue {color: #268bd2;}
+.text-sol-cyan {color: #2aa198;}
+.text-sol-red {color: #dc322f;}
+.text-sol-yellow {color: #b58900;}
+.text-sol-green {color: #859900;}
+.text-sol-magenta {color: #d33682;}
+
+.border-solarized {
     border-width: 2px;
-    /*border-color: #03506f;*/
-    border-color: #1a659e;
+    border-style: solid;
+    border-color: #93a1a1;
+    border-radius: 8px;
 }
 
-.size-50 {
-    width: 50px;
-    height: 50px;
+.clock-size {
+    font-size: 120px;
 }
 
-.font-ubuntu {
-    font-family: 'Ubuntu', sans-serif;
+.date-size {
+    font-size: 40px;
+}
+
+.link-size {
+    font-size: 20px;
+}
+
+.big-shoulders {
+  font-family: "Big Shoulders Stencil Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }

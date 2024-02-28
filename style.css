@@ -10,22 +10,27 @@
 .text-sol-magenta {color: #d33682;}
 
 .border-solarized {
-    border-width: 2px;
-    border-style: solid;
-    border-color: #93a1a1;
-    border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #93a1a1;
+  border-radius: 8px;
 }
 
 .font-size-1 {
-    font-size: 28pt;
+  font-size: 28pt;
 }
 
 .font-size-2 {
-    font-size: 21pt;
+  font-size: 21pt;
 }
 
 .font-size-3 {
-    font-size: 14pt;
+  font-size: 14pt;
+}
+
+.globe-size {
+  height: 75px;
+  width: 75px;
 }
 
 .big-shoulders {
@@ -41,14 +46,4 @@
   font-weight: 500;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-}
-
-.size-50 {
-  width: 50px;
-  height: 50px;
-}
-
-.size-100 {
-  width: 100px;
-  height: 100px;
 }

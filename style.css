@@ -16,16 +16,16 @@
     border-radius: 8px;
 }
 
-.clock-size {
-    font-size: 120px;
+.font-size-1 {
+    font-size: 56pt;
 }
 
-.date-size {
-    font-size: 40px;
+.font-size-2 {
+    font-size: 21pt;
 }
 
-.link-size {
-    font-size: 20px;
+.font-size-3 {
+    font-size: 14pt;
 }
 
 .big-shoulders {
@@ -41,4 +41,14 @@
   font-weight: 500;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+.size-50 {
+  width: 50px;
+  height: 50px;
+}
+
+.size-100 {
+  width: 100px;
+  height: 100px;
 }

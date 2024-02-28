@@ -7,7 +7,7 @@ function currentDate() {
 
     dd = (dd < 10) ? "0" + dd : dd;
 
-    let today = day + ", " + mmm + " " + dd;
+    let today = day + " " + mmm + " " + dd;
 
     document.getElementById("date").innerText = today;
     let t = setTimeout(function(){currentDate() }, 1000);

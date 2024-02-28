@@ -13,15 +13,12 @@
 </head>
 <body>
     <div class="d-flex flex-column w-100 min-vh-100 justify-content-center align-items-center">
-        <div class="d-flex flex-column w-50 justify-content-center align-items-center">
-            <div><img class="size-100" src="globe.svg" alt="globe"></div>
-        </div>
-        <div class="d-flex flex-column flex-sm-column flex-md-row w-50 justify-content-between align-items-center big-shoulders font-size-2 text-solarized">
+        <div class="d-flex flex-column flex-sm-column flex-md-row w-50 justify-content-between align-items-center big-shoulders font-size-1 text-solarized">
             <div class="d-flex flex-column w-100 m-1 p-2">
                 <div class="text-center text-sm-center text-md-start">Bookmarks</div>
             </div>
             <div class="d-flex flex-column w-100 m-1 p-2">
-                <div class="text-center" id="clock" onload="currentTime()"></div>
+                <div class="text-center"><img class="size-100" src="globe.svg" alt="globe"></div>
             </div>
             <div class="d-flex flex-column w-100 m-1 p-2">
                 <div class="text-center text-sm-center text-md-end" id="date" onload="currentDate()"></div>
@@ -30,39 +27,38 @@
         <div class="d-flex flex-column flex-sm-column flex-md-row w-50 justify-content-between align-items-center noto-sans font-size-3">
             <div class="d-flex flex-column w-100 m-1 p-2 border-solarized">
                 <div class="text-sol-blue">[ACCOUNTS]</div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://mail.google.com/mail/ca/u/0/?pli=1#inbox">-gmail</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://outlook.live.com/mail/0/">-outlook</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://us-mg5.mail.yahoo.com/neo/launch?.rand=e822nbhibul9i">-yahoo</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://mail.google.com/mail/ca/u/0/?pli=1#inbox">>gmail_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://outlook.live.com/mail/0/">>outlook_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://us-mg5.mail.yahoo.com/neo/launch?.rand=e822nbhibul9i">>yahoo_</a></div>
                 <div class="text-sol-green">[GAMING]</div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.xbox.com/en-US/">-xbox</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://store.playstation.com/en-us/pages/latest#!/en-us/home/games">-playstation</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://store.steampowered.com/">-steam</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.xbox.com/en-US/">>xbox_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://store.playstation.com/en-us/pages/latest#!/en-us/home/games">>sonyps_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://store.steampowered.com/">>steam_</a></div>
             </div>
             <div class="d-flex flex-column w-100 m-1 p-2 border-solarized">
                 <div class="text-sol-yellow">[SHOPPING]</div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.amazon.com/?ref_=nav_signin&">-amazon</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://shopandship.com/">-shop&ship</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.amazon.com/?ref_=nav_signin&">>amazon_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://shopandship.com/">>sands_</a></div>
                 <div class="text-sol-red">[VIDEOS]</div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.netflix.com/browse">-netflix</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://osnplus.com/en-iq">-osn+</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://shahid.mbc.net/en">-shahid</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.youtube.com/">-youtube</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.netflix.com/browse">>netflix_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://osnplus.com/en-iq">>osn_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://shahid.mbc.net/en">>shahid_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.youtube.com/">>youtube_</a></div>
             </div>
             <div class="d-flex flex-column w-100 m-1 p-2 border-solarized">
-                <div class="text-sol-cyan">[SOCIAL]</div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.reddit.com/">-reddit</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://twitter.com/?lang=en">-twitter</a></div>
-                <div class="text-sol-magenta">[OTHERS]</div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://github.com/">-github</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.calculator.net/">-calculator</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="http://my.o3-telecom.com/rechargeUserAccount">-ftth</a></div>
-                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.google.com/maps">-maps</a></div>
+                <div class="text-sol-cyan">[OTHERS]</div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://github.com/">>github_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.calculator.net/">>calc_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="http://my.o3-telecom.com/rechargeUserAccount">>ftth_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.google.com/maps">>maps_</a></div>
+                <div class="text-sol-magenta">[SOCIAL]</div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://www.reddit.com/">>reddit_</a></div>
+                <div><a class="link-underline link-underline-opacity-0 text-solarized" target="_blank" href="https://twitter.com/?lang=en">>twitter_</a></div>
             </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="date.js"></script>
-    <script src="clock.js"></script>
     <script src="dark.js"></script>
 </body>
 </html>

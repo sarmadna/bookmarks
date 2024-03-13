@@ -22,16 +22,16 @@
 </head>
 <body>
     <div class="d-flex flex-row w-100 min-vh-100 bg-light text-dark">
-        <div class="d-flex flex-column p-2 justify-content-start align-items-center bg-primary text-light">
-            <div class="d-flex flex-row w-100 p-3 m-3 justify-content-center align-items-center">
-                <div class="fs-1 pe-2"><i class="fa-solid fa-bookmark"></i></div>
-                <div class="fs-2 ps-2">Bookmarks</div>
+        <div class="d-flex flex-column p-3 justify-content-start align-items-center bg-primary text-light">
+            <div class="d-flex flex-row w-100 mx-4 mb-2 justify-content-start align-items-center">
+                <div class="fs-1 me-3"><i class="fa-solid fa-bookmark"></i></div>
+                <div class="fs-3">Bookmarks</div>
             </div>
-            <div class="d-flex flex-column w-100 p-3 m-3 justify-content-center align-items-center">
+            <div class="d-flex flex-column w-100 mx-4 my-1 py-3 justify-content-center align-items-center border-top border-1">
                 <div class="fs-4" id="clock" onload="currentTime()"></div>
                 <div class="fs-5" id="date" onload="currentDate()"></div>
             </div>
-            <div class="btn-group-vertical w-100 p-3 m-3">
+            <div class="btn-group-vertical w-100 mx-4 my-1">
                 <a target="_blank" href="http://dock.snamacbook/" class="btn btn-outline-light text-start"><i class="fa-brands fa-docker px-1"></i><span class="px-2">Dockge</span></a>
                 <a target="_blank" href="http://npm.snamacbook/" class="btn btn-outline-light text-start"><i class="fa-solid fa-network-wired px-1"></i><span class="px-2">Nginx Proxy</span></a>
                 <a target="_blank" href="http://cases.snamacbook/" class="btn btn-outline-light text-start"><i class="fa-regular fa-image px-1"></i><span class="px-2">Jellyfin Media</span></a>
@@ -64,7 +64,38 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="date.js"></script>
-    <script src="clock.js"></script>
+    <script>
+        function currentTime() {
+            let date = new Date();
+            let hh = date.getHours();
+            let mm = date.getMinutes();
+            let session = "AM";
+            if (hh == 0) {
+                hh = 12;
+            }
+            if (hh > 12) {
+                hh = hh - 12;
+                session = "PM";
+            }
+            hh = (hh < 10) ? "0" + hh : hh;
+            mm = (mm < 10) ? "0" + mm : mm;
+            let time = hh + ":" + mm + " " + session;
+            document.getElementById("clock").innerText = time;
+            let t = setTimeout(function(){ currentTime() }, 1000);
+        }
+        function currentDate() {
+            let date = new Date();
+            let day = date.toLocaleString("default", {weekday: "short"});
+            let dd = date.getDate();
+            let mmm = date.toLocaleString("default", {month: "short"});
+            let yy = date.toLocaleString("default", {year: "numeric"});
+            dd = (dd < 10) ? "0" + dd : dd;
+            let today = day + " " + mmm + " " + dd;
+            document.getElementById("date").innerText = today;
+            let t = setTimeout(function(){currentDate() }, 1000);
+        }
+        currentTime();
+        currentDate();
+    </script>
 </body>
 </html>

@@ -5,96 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="icon.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Bookmarks</title>
-    <style>
-        table th:first-child {
-            text-align: center;
-        }
-        table th:last-child {
-            text-align: center;
-        }
-        table td:first-child {
-            text-align: center;
-        }
-    </style>
 </head>
-<body>
-    <div class="d-flex flex-row w-100 min-vh-100 bg-light text-dark">
-        <div class="d-flex flex-column p-3 justify-content-start align-items-center bg-primary text-light">
-            <div class="d-flex flex-row w-100 mx-4 mb-2 justify-content-start align-items-center">
-                <div class="fs-1 me-3"><i class="fa-solid fa-bookmark"></i></div>
-                <div class="fs-3">Bookmarks</div>
+<body class="bg-secondary-subtle bg-dark">
+    <div class="d-flex flex-column w-100 min-vh-100">
+        <div class="d-flex flex-column w-75 m-auto">
+            <div class="card w-100">
+                <div class="card-header bg-primary text-light fs-2"><i class="fa-solid fa-bookmark"><span class="mx-3">Bookmarks</span></i></div>
+                <div class="card-body">
+                    <ul class="list-group list-group-horizontal-md mb-3">
+                        <a class="list-group-item list-group-item-action bg-secondary-subtle text-center">Accounts</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://mail.google.com/mail/">Gmail</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://outlook.live.com/mail/">Outlook</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://mail.yahoo.com/">Yahoo</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="http://my.o3-telecom.com/rechargeUserAccount">FTTH</a>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md mb-3">
+                        <a class="list-group-item list-group-item-action bg-secondary-subtle text-center">Gaming</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://www.xbox.com/en-US/">Xbox</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://store.playstation.com/en-us/">Sony</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://store.steampowered.com/">Steam</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://store.epicgames.com/en-US/">Epic</a>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md mb-3">
+                        <a class="list-group-item list-group-item-action bg-secondary-subtle text-center">Videos</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://www.youtube.com/">Youtube</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://www.netflix.com/">Netflix</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://osnplus.com/en-iq/">OSN+</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://shahid.mbc.net/en">Shahid</a>
+                    </ul>
+                    <ul class="list-group list-group-horizontal-md">
+                        <a class="list-group-item list-group-item-action bg-secondary-subtle text-center">Others</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://www.reddit.com/">Reddit</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://github.com/">Github</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://www.amazon.com/">Amazon</a>
+                        <a class="list-group-item list-group-item-action text-center" target="_blank" href="https://shopandship.com/">S&S</a>
+                    </ul>
+                </div>
             </div>
-            <div class="d-flex flex-column w-100 mx-4 my-1 py-3 justify-content-center align-items-center border-top border-1">
-                <div id="clock" onload="currentTime()"></div>
-                <div id="date" onload="currentDate()"></div>
-            </div>
-            <div class="btn-group-vertical w-100 mx-4 my-1">
-                <a target="_blank" href="http://dock.snamacbook/" class="btn btn-outline-light text-start"><i class="fa-brands fa-docker px-1"></i><span class="px-2">Dockge</span></a>
-                <a target="_blank" href="http://npm.snamacbook/" class="btn btn-outline-light text-start"><i class="fa-solid fa-network-wired px-1"></i><span class="px-2">Nginx Proxy</span></a>
-                <a target="_blank" href="http://cases.snamacbook/" class="btn btn-outline-light text-start"><i class="fa-regular fa-image px-1"></i><span class="px-2">Jellyfin Media</span></a>
-                <a target="_blank" href="http://books.snamacbook/" class="btn btn-outline-light text-start"><i class="fa-solid fa-file-pdf px-1"></i><span class="px-2">Kavita Books</span></a>
-                <a target="_blank" href="http://my.o3-telecom.com/rechargeUserAccount" class="btn btn-outline-light text-start"><i class="fa-solid fa-globe px-1"></i><span class="px-2">FTTH Portal</span></a>
-            </div>
-        </div>
-        <div class="d-flex flex-column w-75 m-auto justify-content-center align-items-center">
-            <table class="table table-hover">
-                <thead class="table-secondary">
-                    <tr><th>[ ]</th><th>URL</th><th>Link</th></tr>
-                </thead>
-                <tbody>
-                    <tr><td><i class="fa-brands fa-reddit-alien"></i></td><td>https://www.reddit.com/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://www.reddit.com/">Reddit</a></td></tr>
-                    <tr><td><i class="fa-brands fa-youtube"></i></td><td>https://www.youtube.com/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://www.youtube.com/">Youtube</a></td></tr>
-                    <tr><td><i class="fa-brands fa-github-alt"></i></td><td>https://github.com/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://github.com/">Github</a></td></tr>
-                    <tr><td><i class="fa-brands fa-xbox"></i></td><td>https://www.xbox.com/en-US/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://www.xbox.com/en-US/">Xbox</a></td></tr>
-                    <tr><td><i class="fa-brands fa-playstation"></i></td><td>https://store.playstation.com/en-us/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://store.playstation.com/en-us/">Playstation</a></td></tr>
-                    <tr><td><i class="fa-brands fa-steam"></i></td><td>https://store.steampowered.com/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://store.steampowered.com/">Steam</a></td></tr>
-                    <tr><td><i class="fa-brands fa-google"></i></td><td>https://mail.google.com/mail/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://mail.google.com/mail/">Gmail</a></td></tr>
-                    <tr><td><i class="fa-brands fa-microsoft"></i></td><td>https://outlook.live.com/mail/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://outlook.live.com/mail/">Outlook</a></td></tr>
-                    <tr><td><i class="fa-brands fa-yahoo"></i></td><td>https://mail.yahoo.com/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://mail.yahoo.com/">Yahoo</a></td></tr>
-                    <tr><td><i class="fa-brands fa-amazon"></i></td><td>https://www.amazon.com/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://www.amazon.com/">Amazon</a></td></tr>
-                    <tr><td><i class="fa-solid fa-bag-shopping"></i></td><td>https://shopandship.com/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://shopandship.com/">Shop&Ship</a></td></tr>
-                    <tr><td><i class="fa-solid fa-n"></i></td><td>https://www.netflix.com/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://www.netflix.com/">Netflix</a></td></tr>
-                    <tr><td><i class="fa-solid fa-film"></i></td><td>https://osnplus.com/en-iq</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://osnplus.com/en-iq">OSN+</a></td></tr>
-                    <tr><td><i class="fa-solid fa-calculator"></i></td><td>https://www.calculator.net/</td><td><a class="btn btn-sm btn-outline-dark w-100" target="_blank" href="https://www.calculator.net/">Calculator</a></td></tr>
-                </tbody>
-            </table>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-        function currentTime() {
-            let date = new Date();
-            let hh = date.getHours();
-            let mm = date.getMinutes();
-            let session = "AM";
-            if (hh == 0) {
-                hh = 12;
-            }
-            if (hh > 12) {
-                hh = hh - 12;
-                session = "PM";
-            }
-            hh = (hh < 10) ? "0" + hh : hh;
-            mm = (mm < 10) ? "0" + mm : mm;
-            let time = hh + ":" + mm + " " + session;
-            document.getElementById("clock").innerText = time;
-            let t = setTimeout(function(){ currentTime() }, 1000);
-        }
-        function currentDate() {
-            let date = new Date();
-            let day = date.toLocaleString("default", {weekday: "short"});
-            let dd = date.getDate();
-            let mmm = date.toLocaleString("default", {month: "short"});
-            let yy = date.toLocaleString("default", {year: "numeric"});
-            dd = (dd < 10) ? "0" + dd : dd;
-            let today = day + " " + mmm + " " + dd;
-            document.getElementById("date").innerText = today;
-            let t = setTimeout(function(){currentDate() }, 1000);
-        }
-        currentTime();
-        currentDate();
-    </script>
 </body>
 </html>
